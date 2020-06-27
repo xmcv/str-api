@@ -30,14 +30,6 @@ const login = async ({ body: { email, password } }, res) => {
       message: 'La password non è corretta.'
     })
   }
-
-  // try {
-
-  // } catch ({ message }) {
-  //   res.status(500).json({
-  //     message
-  //   })
-  // }
 }
 
 // Esporto tutte le richieste sotto la directory /api/v1/login.
